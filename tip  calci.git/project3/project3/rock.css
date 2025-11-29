@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+body{
+    background-color: rgb(42, 20, 20);
+    color: white;
+    text-align: center;
+}
+.buttons{
+    /* background-color: rgb(52, 52, 184); */
+    box-shadow: 4px;
+     justify-content: center;
+     align-items: center;
+    margin: 30px 30px;
+    display: flex;
+
+
+    border: none;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+    gap: 20px;
+    padding: 10px;
+
+    width: 350px;
+    height: 70px;
+   
+}
+button.hover{
+    opacity: 0.5
+}
+h1{
+    margin: 40px;
+    padding: 15px;
+    background-color: rgb(75, 50, 55);
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#rock{
+    background-color: chartreuse;
+    font-size: 52px;
+    align-items: center;
+}
+#paper{
+    background-color:rgb(245, 221, 8);
+     font-size: 56px;
+     width: 89px;
+     align-items: center;
+}
+#scissors{
+    background-color: rgb(124, 197, 208);
+    font-size: 53px;
+     width: 75px;
+     align-items: center;
+    
+}
+#user-score{
+    background-color: rgb(168, 58, 124);
+}
+#computer-score{
+    background-color: rgb(158, 108, 33);
+    
+}
+result{
+    font-size: 20px;
+
+
+}
+#result{
+    color: rgb(206, 203, 22);
+    padding: 30px;
+}
